@@ -109,7 +109,7 @@ installIfMissing libsqlite3-dev
 installIfMissing libusb-1.0-0
 installIfMissing libusb-1.0-0-dev
 installIfMissing libortp-dev
-installIfMissing libortp9
+installIfMissing libortp8
 installIfMissing libosip2-dev
 installIfMissing libreadline-dev
 installIfMissing libncurses5
@@ -130,7 +130,7 @@ installIfMissing libjansson-dev
 installIfMissing libxml2-dev
 # zmq
 installIfMissing libzmq3-dev
-installIfMissing libzmq5
+installIfMissing libzmq3
 installIfMissing python-zmq
 if [ "$MANUFACTURER" == "Ettus" ]; then
 	installIfMissing libuhd-dev
